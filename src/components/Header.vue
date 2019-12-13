@@ -64,6 +64,7 @@ export default {
     left: 0;
     right: 0;
     border-bottom: 1px solid #d8d8d8;
+    background-color: #ffffff;
 }
 .header .header-inner{
     width: 1200px;
