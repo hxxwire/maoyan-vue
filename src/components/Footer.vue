@@ -26,7 +26,7 @@
       <p>
         <a href="">中华人民共和国增值电信业务经营许可证 京B2-20190350</a>
         <span></span>
-        <a href=""> 营业性演出许可证 京演（机构）（2019）4094号</a>
+        <a href="">营业性演出许可证 京演（机构）（2019）4094号</a>
       </p>
       <p>
         <a href="">广播电视节目制作经营许可证 （京）字第08478号</a>
@@ -36,7 +36,7 @@
       <p>
         <a href="">猫眼用户服务协议</a>
         <span></span>
-        <a href=""> 猫眼平台交易规则总则</a>
+        <a href="">猫眼平台交易规则总则</a>
         <span></span>
         <a href="">隐私政策</a>
       </p>
@@ -65,14 +65,11 @@ export default {
 
 <style>
 .footer{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
+  min-width: 1200px;
   background-color: #262426;
   padding: 56px 0;
   margin-top: 82px;
-  min-width: 1200px;
 }
 .footer,.footer a{
   color: #cccccc;
