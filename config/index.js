@@ -11,15 +11,13 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api':{
-        target: 'api.douban.com/v2/movie/in_theaters?apikey=0df993c66c0c636e29ecbb5344252a4a',  // 后台api
+        target: 'https://api.douban.com',  // 后台api
         changeOrigin: true,  //是否跨域
         // secure: true,
         pathRewrite: {
-          '^/api': ''   //需要rewrite的,
+          '^/api': '/api'   //需要rewrite的,
         }
       }
-
-
     },
 
     // Various Dev Server settings

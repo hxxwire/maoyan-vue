@@ -17,7 +17,7 @@
                 <li><a href="">热点</a></li>
                 <li><a href="">商城</a></li>
             </ul>
-            <div id="app-download" @mouseenter="showqt">
+            <div id="app-download">
                 <span class="phone-icon"></span>
                 <span class="app-text">APP下载
                     <span class="caret"></span>
