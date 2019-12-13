@@ -1,15 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Showye from '@/components/index/Showye'
-
+import Main from '@/components/Main'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Showye',
-      component: Showye
+      name: 'Main',
+      component: Main
     }
   ]
 })
